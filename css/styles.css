@@ -114,16 +114,17 @@ section#relatos img{
 section#precos {
     background-color: rgb(37, 37, 37);
     color: #fff;
-    padding: 50px 100px;
+    padding: 20px 0 60px 0;
+
 }
 
 section#precos div.container{
-    padding: 20px;
+    padding: 20px 100px;
 }
 
 section#precos h2{
     text-align: center;
-    margin: 20px 0 50px 0;
+    margin: 40px 0 30px 0;
     font-size: 2.3rem;
 }
 
@@ -150,7 +151,7 @@ section#precos div.div-botao button{
 
 section#chamada-acao{
     background-color: rgb(250, 246, 241);
-    padding: 100px 0px;
+    padding: 100px 5px;
 }
 
 
@@ -168,7 +169,8 @@ section#chamada-acao div.container h2{
 }
 
 section#chamada-acao button{
-    padding: 10px 50px;
+    font-size: 1.2rem;
+    padding: 10px 30px;
 }
 
 
