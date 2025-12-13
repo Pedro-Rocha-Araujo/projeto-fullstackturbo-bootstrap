@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section#cabecalho{
+    background-color: rgb(250, 246, 241);
+    height: 700px;
+    padding: 50px;
+}
+
+section#cabecalho section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section#cabecalho h1{
+    font-weight: bold;
+    margin: 30px 0;
+    text-align: center;
+    font-size: 3.4rem;
+}
+
+section#cabecalho button{
+    margin: 0 10px;
+}
+
+section#cabecalho figure{
+    position: relative;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#cabecalho figure img{
+    position: absolute;
+    height: 100%;
+}
+
+@media screen and (max-width: 990px){
+    section#cabecalho{
+    padding: 0px;
+}
+}
+
+
+
+
+section#curiosidades{
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    padding: 50px 100px;
+    text-align: left;
+}
+
+section#curiosidades h2{
+    text-align: center;
+    margin: 20px 0 40px 0;
+    font-size: 2.3rem;
+}
+
+section#curiosidades h3{
+    margin-bottom: 20px;
+}
+
+section#curiosidades div{
+    padding: 40px;
+}
+
+
+
+
+
+
+section#relatos{
+    padding: 0px 50px;
+}
+
+section#relatos h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 40px 0 0 0;
+}
+
+section#relatos div.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+section#relatos img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+section#precos {
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    padding: 50px 100px;
+}
+
+section#precos div.container{
+    padding: 20px;
+}
+
+section#precos h2{
+    text-align: center;
+    margin: 20px 0 50px 0;
+    font-size: 2.3rem;
+}
+
+
+
+
+
+
+
+section#chamada-acao{
+    background-color: rgb(250, 246, 241);
+    padding: 100px;
+}
+
+
+section#chamada-acao div.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section#chamada-acao div.container h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    padding: 10px;
+}
+
+footer div.container{
+    display: flex;
+    place-content: center center;
+}
+
+footer div.container p{
+    margin: 0;
+}

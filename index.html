@@ -8,8 +8,8 @@
     <title>Projeto Dukesa</title>
 </head>
 <body>
-    <header>
-        <nav class="p-3 navbar navbar-expand-lg navbar-dark bg-dark">
+    <header class="row">
+    <nav class="p-3 navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,62 +24,82 @@
             </ul>
         </div>
     </nav>
-    <div>
-        <h1>Seja bem vindo ao site!</h1>
-        <buttin type="button">Botão 1</buttin>
-        <buttin type="button">Botão 2</buttin>
-    </div>
-    <figure>
-        <img src="./img/Gatinho.png" alt="Imagem de um gato" />
-    </figure>
+    <section class="row" id="cabecalho">
+        <section class="col-lg-6">
+            <h1>Seja bem vindo ao site!</h1>
+            <div>
+                <button class="btn btn-outline-dark" type="button">Botão 1</button>
+                <button class="btn btn-outline-dark" type="button">Botão 2</button>
+            </div>
+        </section>
+        <figure class="col-lg-6">
+            <img src="./img/Gatinho.png" alt="Imagem de um gato" />
+        </figure>
+    </section>
     </header> <!--FInal do Header-->
+
     <main>
-        <section id="curiosidades">
-            <h2>Gatos tem mesmo 7 vidas?</h2>
-            <p>Esse mito foi criado como uma forma de brincar com a agilidade de reflexos apurados dos felinos.</p>
-
-            <h2>Você sabia que os gatos não sentem o sabor doce?</h2>
-            <p>Isso acontece porque os gatos têm uma mutação genética que desativa os receptores de sabor doce.</p>
-
-            <h2>Os gatos enxergam mal de perto?</h2>
-            <p>Os gatos têm dificuldade para focar objetos a menos de 25-30 cm, pois sua visão é adaptada para caçar e focar em movimentos em distâncias maiores.</p>
+        <section class="row" id="curiosidades">
+            <h2>Curiosidades</h2>
+            <div class="container col-lg-4">
+                <h3 class="">Gatos tem mesmo 7 vidas?</h3>
+                <p class="">Esse mito foi criado como uma forma de brincar com a agilidade de reflexos apurados dos felinos.</p>
+            </div>
+            <div class="container col-lg-4">
+                <h3 class="col">Não sentem o sabor doce?</h3>
+                <p>Isso acontece porque os gatos têm uma mutação genética que desativa os receptores de sabor doce.</p>
+            </div>
+            <div class="container col-lg-4">
+                <h3 class="col">Enxergam mal de perto?</h3>
+                <p>Os gatos têm dificuldade para focar objetos a menos de 25-30 cm, pois sua visão é adaptada para caçar e focar em movimentos em distâncias maiores.</p>
+            </div>
         </section>
 
-        <section id="relatos">
-            <h2>Relatos de nossos clientes!</h2>
-            <img src="./img/pessoa1.jpg" alt="Relato número 1">
-            <em>Telha-SE</em>
-
-            <img src="./img/pessoa2.jpg" alt="Relato número 1">
-            <em>São Paulo-SP</em>
-
-            <img src="./img/pessoa3.png" alt="Relato número 1">
-            <em>Rio de Janeiro-RJ</em>
+        <section class="row" id="relatos">
+            <div class="container">
+                <h2>Relatos de nossos clientes!</h2>
+            </div>
+            <div class="container col-lg-3">
+                <img class="" src="./img/pessoa1.jpg" alt="Relato número 1">
+            </div>
+            <div class="container col-lg-3">
+                <img src="./img/pessoa2.jpg" alt="Relato número 1">
+            </div>
+            <div class="container col-lg-3">
+                <img src="./img/pessoa3.png" alt="Relato número 1">
+            </div>
         </section>
 
-        <section id="precos">
-            <h2>Confira os preços dos nossos planos</h2>
-
-            <h3>Plano gratuito</h3>
-            <p>Nosso serviço gratuito consiste na disponibilização de conteúdos como vídeos e PDFs com dicas de cuidados enviado via E-mail.</p>
-            <button type="button">Assinar</button>
-
-            <h3>R$50,00 Mensais</h3>
-            <p>Nesse plano, é disponibilizado banho e tosa três vezes por mês.</p>
-            <button type="button">Assinar</button>
-
-            <h3>R$100,00 Mensais</h3>
-            <p>Nesse plano, é disponibilizado banho e tosa seis vezes por mês, além de descontos em nossa loja.</p>
-            <button type="button">Assinar</button>
+        <section class="row" id="precos">
+            <h2>Confira os nossos planos</h2>
+            <div class="container col-lg-4">
+                <h3>Plano gratuito</h3>
+                <p>Nosso serviço gratuito consiste na disponibilização de conteúdos como vídeos e PDFs com dicas de cuidados enviado via E-mail.</p>
+                <button class="btn btn-success" type="button">Assinar</button>
+            </div>
+            <div class="container col-lg-4">
+                <h3>R$50,00 Mensais</h3>
+                <p>Nesse plano, é disponibilizado banho e tosa três vezes por mês.</p>
+                <button class="btn btn-success" type="button">Assinar</button>
+            </div>
+            <div class="container col-lg-4">
+                <h3>R$100,00 Mensais</h3>
+                <p>Nesse plano, é disponibilizado banho e tosa seis vezes por mês, além de descontos em nossa loja.</p>
+                <button class="btn btn-success" type="button">Assinar</button>
+            </div>
         </section>
-
-        <section id="chamada-acao">
-            <h3>Realize o download do nosso material gratuito</h3>
-            <button type="button">Baixar</button>
+        
+        <section class="row" id="chamada-acao">
+            <div class="container">
+                <h2>Download do nosso material gratuito</h2>
+                <button class="btn btn-primary" type="button">Baixar</button>
+            </div>
         </section>
     </main> <!--FInal do Main-->
-    <footer>
-        <p>Site criado por Pedro Rocha Araujo - Curso Fullstack Turbo</p>
+    <footer class="row">
+        <div class="container">
+            <p>Site criado por Pedro Rocha Araujo - Curso Fullstack Turbo</p>
+        </div>
     </footer> <!--FInal do Footer-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
