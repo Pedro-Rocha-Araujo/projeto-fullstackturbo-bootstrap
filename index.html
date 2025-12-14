@@ -8,7 +8,7 @@
     <title>Projeto Dukesa</title>
 </head>
 <body>
-    <header class="row">
+    <header>
     <nav class="p-3 navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,75 +17,76 @@
         
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Curiosidades</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Relatos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Planos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#cabecalho">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#curiosidades">Curiosidades</a></li>
+                <li class="nav-item"><a class="nav-link" href="#relatos">Relatos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#precos">Planos</a></li>
             </ul>
         </div>
     </nav>
-    <section class="row" id="cabecalho">
-        <section class="col-lg-6">
-            <h1>Seja bem vindo ao site!</h1>
-            <div>
-                <button class="btn btn-outline-dark" type="button">Conheça nossos serviços</button>
-            </div>
-        </section>
-        <figure class="col-lg-6">
-            <img src="./img/Gatinho.png" alt="Imagem de um gato" />
-        </figure>
-    </section>
     </header> <!--FInal do Header-->
 
-    <main>
-        <section class="row" id="curiosidades">
+    <main class="container-fluid p-0">
+        <section class="row g-0" id="cabecalho">
+            <section class="col-lg-6">
+                <h1>Seja bem vindo!</h1>
+                <div>
+                    <button class="btn btn-outline-dark" type="button">Conheça nossos serviços</button>
+                </div>
+            </section>
+            <figure class="col-lg-6">
+                <img src="./img/Gatinho.png" alt="Imagem de um gato" />
+            </figure>
+        </section>
+
+        <section class="row g-0" id="curiosidades">
             <h2>Curiosidades</h2>
-            <div class="container col-lg-4">
-                <h3 class="">Gatos tem mesmo 7 vidas?</h3>
-                <p class="">Esse mito foi criado como uma forma de brincar com a agilidade de reflexos apurados dos felinos.</p>
+            <div class="col-lg-4">
+                <h3>Gatos tem mesmo 7 vidas?</h3>
+                <p>Esse mito foi criado como uma forma de brincar com a agilidade de reflexos apurados dos felinos.</p>
             </div>
-            <div class="container col-lg-4">
+            <div class="col-lg-4">
                 <h3 class="col">Não sentem o sabor doce?</h3>
                 <p>Isso acontece porque os gatos têm uma mutação genética que desativa os receptores de sabor doce.</p>
             </div>
-            <div class="container col-lg-4">
+            <div class="col-lg-4">
                 <h3 class="col">Enxergam mal de perto?</h3>
                 <p>Os gatos têm dificuldade para focar objetos a menos de 25-30 cm, pois sua visão é adaptada para caçar e focar em movimentos em distâncias maiores.</p>
             </div>
         </section>
 
-        <section class="row" id="relatos">
-            <div class="container">
-                <h2>Relatos de nossos clientes!</h2>
+        <section class="row g-0" id="relatos">
+            <div>
+                <h2>Relatos dos clientes!</h2>
             </div>
-            <div class="container col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <img class="" src="./img/pessoa1.jpg" alt="Relato número 1">
             </div>
-            <div class="container col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <img src="./img/pessoa2.jpg" alt="Relato número 1">
             </div>
-            <div class="container col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <img src="./img/pessoa3.png" alt="Relato número 1">
             </div>
         </section>
 
-        <section class="row" id="precos">
+        <section class="row g-0" id="precos">
             <h2>Confira os nossos planos</h2>
-            <div class="container col-lg-4">
+            <div class="col-lg-4">
                 <h3>Plano gratuito</h3>
                 <p>Disponibilização de conteúdos como vídeos e PDFs com dicas de cuidados enviado via E-mail.</p>
                 <div class="div-botao">
                     <button class="btn btn-success" type="button">Assinar</button>
                 </div>
             </div>
-            <div class="container col-lg-4">
+            <div class="col-lg-4">
                 <h3>R$50,00 Mensais</h3>
                 <p>Nesse plano, é disponibilizado banho e tosa três vezes por mês a qualquer dia e horário.</p>
                 <div class="div-botao">
                     <button class="btn btn-success" type="button">Assinar</button>
                 </div>
             </div>
-            <div class="container col-lg-4">
+            <div class="col-lg-4">
                 <h3>R$100,00 Mensais</h3>
                 <p>Nesse plano, é disponibilizado banho e tosa seis vezes por mês, além de descontos em nossa loja.</p>
                 <div class="div-botao">
@@ -94,14 +95,16 @@
             </div>
         </section>
         
-        <section class="row" id="chamada-acao">
-            <div class="container">
+        <section class="row g-0" id="chamada-acao">
+            <div>
                 <h2>Download do nosso material gratuito</h2>
                 <button class="btn btn-outline-dark" type="button">Baixar</button>
             </div>
         </section>
     </main> <!--FInal do Main-->
-    <footer class="row">
+
+
+    <footer>
         <div class="container">
             <p>Site criado por Pedro Rocha Araujo - Curso Fullstack Turbo</p>
         </div>

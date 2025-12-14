@@ -8,10 +8,19 @@ body{
     font-family: Verdana, arial, Tahoma, sans-serif;
 }
 
+
+
+
+
+
+
+
+
 section#cabecalho{
     background-color: rgb(250, 246, 241);
     height: 700px;
-    padding: 50px;
+    max-width: 100%;
+
 }
 
 section#cabecalho button{
@@ -34,15 +43,14 @@ section#cabecalho h1{
 }
 
 section#cabecalho figure{
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
 }
 
 section#cabecalho figure img{
-    position: absolute;
-    height: 100%;
+    width: 600px;
 }
 
 @media screen and (max-width: 990px){
@@ -91,7 +99,7 @@ section#relatos h2{
     margin: 40px 0 0 0;
 }
 
-section#relatos div.container{
+section#relatos div{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,11 +122,11 @@ section#relatos img{
 section#precos {
     background-color: rgb(37, 37, 37);
     color: #fff;
-    padding: 20px 0 60px 0;
+    padding: 20px 5px 60px 5px;
 
 }
 
-section#precos div.container{
+section#precos div{
     padding: 20px 100px;
 }
 
@@ -151,18 +159,18 @@ section#precos div.div-botao button{
 
 section#chamada-acao{
     background-color: rgb(250, 246, 241);
-    padding: 100px 5px;
+    padding: 100px 1px;
 }
 
 
-section#chamada-acao div.container{
+section#chamada-acao div{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-section#chamada-acao div.container h2{
+section#chamada-acao div h2{
     font-size: 2.3rem;
     text-align: center;
     margin-bottom: 40px;
@@ -186,11 +194,11 @@ footer{
     padding: 10px;
 }
 
-footer div.container{
+footer div{
     display: flex;
     place-content: center center;
 }
 
-footer div.container p{
+footer div p{
     margin: 0;
 }
