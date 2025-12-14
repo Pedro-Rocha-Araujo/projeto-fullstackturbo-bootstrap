@@ -146,7 +146,15 @@ section#precos div.div-botao{
     justify-content: center;
 }
 
+.conteudo-preco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 section#precos div.div-botao button{
+
     font-size: 1.1rem;
     padding: 4px 20px;
 }
