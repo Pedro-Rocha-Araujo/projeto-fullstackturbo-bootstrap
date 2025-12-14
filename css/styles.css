@@ -9,6 +9,10 @@ body{
 }
 
 
+header{
+    background-color: rgb(37, 37, 37);
+}
+
 
 
 
@@ -17,7 +21,7 @@ body{
 
 
 section#cabecalho{
-    background-color: rgb(250, 246, 241);
+    background-color: #D2E8E3;
     height: 700px;
     max-width: 100%;
 
@@ -39,7 +43,7 @@ section#cabecalho h1{
     font-weight: bold;
     margin: 30px 0;
     text-align: center;
-    font-size: 3.4rem;
+    font-size: 3.7rem;
 }
 
 section#cabecalho figure{
@@ -50,10 +54,10 @@ section#cabecalho figure{
 }
 
 section#cabecalho figure img{
-    width: 600px;
+    width: 590px;
 }
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 1199px){
     section#cabecalho figure{
         display: none;
 }
@@ -90,11 +94,12 @@ section#curiosidades div{
 
 section#relatos{
     padding: 0 0 40px 0;
+    background-color: #D2E8E3;
 }
 
 section#relatos h2{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: bold;
     margin: 40px 0 0 0;
 }
@@ -159,6 +164,12 @@ section#precos div.div-botao button{
     padding: 4px 20px;
 }
 
+@media screen and (max-width: 1200px){
+    section#precos div.conteudo-preco, section#curiosidades{
+        padding: 25px;
+    }
+}
+
 
 
 
@@ -166,8 +177,8 @@ section#precos div.div-botao button{
 
 
 section#chamada-acao{
-    background-color: rgb(250, 246, 241);
-    padding: 100px 1px;
+    background-color: #D2E8E3;
+    padding: 100px 5px;
 }
 
 
@@ -181,7 +192,7 @@ section#chamada-acao div{
 section#chamada-acao div h2{
     font-size: 2.3rem;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 section#chamada-acao button{
@@ -209,4 +220,5 @@ footer div{
 
 footer div p{
     margin: 0;
+    text-align: center;
 }
