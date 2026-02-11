@@ -16,10 +16,10 @@ h1 {
 h2 {
     text-align: center;
     margin: 20px 0;
-    font-size: clamp(1.8rem, 5vw, 2.2rem);
+    font-size: clamp(1.9rem, 5vw, 2.4rem);
 }
 h3 {
-    font-size: clamp(1.4rem, 3vw, 1.6rem);
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
     text-align: center;
     margin-bottom: 10px;
 }
@@ -93,7 +93,7 @@ div.clientes{
 }
 img.cliente {
     width: 100%;
-    max-width: 340px;
+    max-width: 420px;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 30px;
@@ -119,4 +119,26 @@ footer {
     background-color: #30261c;
     color: #fff;
     text-align: center;
+}
+i.fa-solid {
+    display: none;
+}
+@media screen and (max-width: 1080px){
+    div.planos, div.clientes, article.curiosidades{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    i.fa-solid{
+        display: inline;
+        width: 100px;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        height: 80vh;
+    }
+    header img{
+        display: none;
+    }
 }
